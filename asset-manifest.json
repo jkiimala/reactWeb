@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/reactWeb/static/css/main.72944c8b.css",
+    "main.js": "/reactWeb/static/js/main.80ffd9ca.js",
+    "static/media/captain.webp": "/reactWeb/static/media/captain.d4639f5a2dd4f3000134.webp",
+    "static/media/man.webp": "/reactWeb/static/media/man.ba40e7b97ef32ea54174.webp",
+    "static/media/pig.webp": "/reactWeb/static/media/pig.93ac9e160d4537d388be.webp",
+    "static/media/pirate.webp": "/reactWeb/static/media/pirate.cd3e5964971403d05449.webp",
+    "static/media/worms.webp": "/reactWeb/static/media/worms.530b4f0127f49347ff03.webp",
+    "static/media/beer.webp": "/reactWeb/static/media/beer.da12b58ce3a6b812b0be.webp",
+    "index.html": "/reactWeb/index.html",
+    "main.72944c8b.css.map": "/reactWeb/static/css/main.72944c8b.css.map",
+    "main.80ffd9ca.js.map": "/reactWeb/static/js/main.80ffd9ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72944c8b.css",
+    "static/js/main.80ffd9ca.js"
+  ]
+}
