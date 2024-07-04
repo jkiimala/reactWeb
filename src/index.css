@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +10,68 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #bae6fd;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Varmista, että linkit eivät ole alleviivattuja */
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+#about {
+  display: flex;
+  background-color: #bae6fd;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 0px; /* Lisää tilaa yläosaan, jotta otsikko näkyy kunnolla */ 
+}
+
+
+#skills {
+  display: flex;
+  background-color: #e1f5ff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 0px; /* Lisää tilaa yläosaan, jotta otsikko näkyy kunnolla */ 
+}
+
+#projects {
+  display: flex;
+  background-color: #bae6fd;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 0px; /* Lisää tilaa yläosaan, jotta otsikko näkyy kunnolla */
+}
+
+#contact {
+  display: flex;
+  background-color: #e1f5ff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 600px; /* Lisää tilaa yläosaan, jotta otsikko näkyy kunnolla */
+}
+
+
+
+
