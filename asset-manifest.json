@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/reactWeb/static/css/main.72944c8b.css",
-    "main.js": "/reactWeb/static/js/main.d04151ac.js",
+    "main.css": "/reactWeb/static/css/main.442fff76.css",
+    "main.js": "/reactWeb/static/js/main.5ecc8186.js",
+    "static/media/code3.jpg": "/reactWeb/static/media/code3.4f21a8e863597f63d176.jpg",
+    "static/media/code.jpg": "/reactWeb/static/media/code.265ba145a1e550332ac0.jpg",
+    "static/media/code2.jpg": "/reactWeb/static/media/code2.364436690af2178f9a9b.jpg",
     "static/media/captain.webp": "/reactWeb/static/media/captain.d4639f5a2dd4f3000134.webp",
     "static/media/man.webp": "/reactWeb/static/media/man.ba40e7b97ef32ea54174.webp",
     "static/media/pig.webp": "/reactWeb/static/media/pig.93ac9e160d4537d388be.webp",
@@ -9,11 +12,11 @@
     "static/media/worms.webp": "/reactWeb/static/media/worms.530b4f0127f49347ff03.webp",
     "static/media/beer.webp": "/reactWeb/static/media/beer.da12b58ce3a6b812b0be.webp",
     "index.html": "/reactWeb/index.html",
-    "main.72944c8b.css.map": "/reactWeb/static/css/main.72944c8b.css.map",
-    "main.d04151ac.js.map": "/reactWeb/static/js/main.d04151ac.js.map"
+    "main.442fff76.css.map": "/reactWeb/static/css/main.442fff76.css.map",
+    "main.5ecc8186.js.map": "/reactWeb/static/js/main.5ecc8186.js.map"
   },
   "entrypoints": [
-    "static/css/main.72944c8b.css",
-    "static/js/main.d04151ac.js"
+    "static/css/main.442fff76.css",
+    "static/js/main.5ecc8186.js"
   ]
 }
