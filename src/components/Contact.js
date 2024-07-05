@@ -6,7 +6,7 @@ import profileImage from '../images/man.webp'; // Tuodaan kuva
 const reviews = [
   {
     id: 1,
-    name: "W.Axl Rose",
+    name: "Lemmy Kilmister",
     review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!",
     rating: 5,
   },

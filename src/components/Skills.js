@@ -8,7 +8,7 @@ const Skills = () => {
     <div className="mx-auto max-w-xl text-center">
       
       <h1 className="text-3xl font-extrabold sm:text-5xl">
-        Creative Web Design.
+        ICT Skills.
       </h1>
 
       <p className="mt-4 sm:text-xl/relaxed text-start tracking-tighter">
