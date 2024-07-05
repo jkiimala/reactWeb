@@ -44,6 +44,12 @@ const Header = () => {
                 Skills
               </a>
             </li>
+
+            <li>
+              <a href="#carousel" className="px-3 py-2 text-white rounded hover:bg-sky-600">
+                Photos
+              </a>
+            </li>
             <li>
 
               <a href="#projects" className="px-3 py-2 text-white rounded hover:bg-sky-600">

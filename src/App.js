@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Skills from "./components/Skills";
+import Carousel from "./components/Carousel";
 import ScrollToTopButton from './components/ScrollToTopButton';
 
 
@@ -21,6 +22,10 @@ function App() {
         
         <section id="skills" className="min-h-screen bg-gray-100 p-8">
           <Skills />
+        </section>
+
+        <section id="carousel" className="min-h-screen bg-gray-100 p-8">
+          <Carousel />
         </section>
 
         <section id="projects" className="min-h-screen bg-white p-8">

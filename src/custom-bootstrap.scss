@@ -1,0 +1,29 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/carousel';
+
+.carousel-item-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  height: 700px; /* Adjust height as needed */
+}
+
+.carousel-item img {
+  max-height: 700px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 180px;
+  width: 100%;
+}
+
+#carousel {
+    background-color: rgb(7 89 133);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    padding-top: 10px; /* Lisää tilaa yläosaan, jotta otsikko näkyy kunnolla */ 
+  }
