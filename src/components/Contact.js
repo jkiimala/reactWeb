@@ -80,7 +80,7 @@ const Contact = () => {
       <p className="text-gray-700 text-center my-3">Social Media Links</p>
       <div className="social-icons text-center space-x-2">
         
-        <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/jkiimala" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
         <a href="https://www.facebook.com/your-profile" target="_blank" rel="noopener noreferrer">
