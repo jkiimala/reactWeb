@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header className="bg-sky-800 shadow fixed w-full top-0 left-0 z-50">
       <div className="container mx-auto p-6 flex justify-between items-center">
-        <a href="about" onClick={scrollToTop} className="text-base font-semibold cursor-pointer text-white">
+        <a href="#about" onClick={scrollToTop} className="text-base font-semibold cursor-pointer text-white">
           Front-End Web Developer
         </a>
         <div className="md:hidden">
