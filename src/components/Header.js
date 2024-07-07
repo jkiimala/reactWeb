@@ -34,7 +34,7 @@ const Header = () => {
         <nav className={`${isOpen ? "block" : "hidden"} md:flex md:items-center`}>
           <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 ml-auto items-end text-xs uppercase tracking-tight">
             <li>
-              <a href="about" onClick={scrollToTop} className="px-3 py-2 text-white rounded hover:bg-sky-600">
+              <a href="#about" onClick={scrollToTop} className="px-3 py-2 text-white rounded hover:bg-sky-600">
                 About Me
               </a>
             </li>
