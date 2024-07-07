@@ -7,19 +7,19 @@ const reviews = [
   {
     id: 1,
     name: "Lemmy Kilmister",
-    review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!",
+    review: "That was a great time, the summer of 1997 – I can’t remember it, but I’ll never forget it!",
     rating: 5,
   },
   {
     id: 2,
     name: "Elvis Presley",
-    review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae!",
+    review: "Don’t criticize what you don’t understand, son. You never walked in that man’s shoes.",
     rating: 5,
   },
   {
     id: 3,
     name: "Jimi Hendrix",
-    review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!",
+    review: "Knowledge speaks, but wisdom listens.",
     rating: 5,
   },
 ];
@@ -44,9 +44,11 @@ const Contact = () => {
   return (
     <div className="contact">
       
+      
       <section className="#bae6fd">
       
         <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+          
           <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl -mt-96">
             Contact info & trusted reviews from my customers.
           </h2>
@@ -79,7 +81,7 @@ const Contact = () => {
 
       <h2 className="text-3 font-bold mb-3 cursor-pointer text-center"><a href="https://jkiimala.github.io" target="_blank" rel="noopener noreferrer">Portfolio Website | jkiimala.github.io</a></h2>
       
-      <p className="text-gray-700 text-center my-3">Social Media Links</p>
+      <p className="text-gray-700 text-center my-3 uppercase text-sm font-bold">Social media</p>
       <div className="social-icons text-center space-x-2">
         
         <a href="https://www.linkedin.com/in/jkiimala" target="_blank" rel="noopener noreferrer">

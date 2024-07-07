@@ -9,44 +9,44 @@ const Projects = () => {
   return (
     <section className="projects">
       
-      <h2 className="text-3xl font-extrabold sm:text-5xl mt-32 mb-10 text-center">My JavaScript Games.</h2>
+      <h2 className="text-3xl font-extrabold sm:text-5xl mt-32 mb-10 text-center">JavaScript Games.</h2>
 
-      <div className="grid grid-cols-4 gap-10 mb-10">
+      <div className="grid grid-cols-4 gap-1 mb-10">
   <div><a href="https://jkiimala.github.io/captainJackpot/" target="_blank">
   <img
                     src={profileImage}
                     alt="Profile"
-                    className="size-32 rounded-full object-cover shadow-lg"
+                    className="size-32 rounded-full object-cover shadow-lg border-2 border-cyan-500"
                   /></a></div>
                   
   <div><a href="https://jkiimala.github.io/beerClicker/" target="_blank">
   <img
                     src={profileImage2}
                     alt="Profile"
-                    className="size-32 rounded-full object-cover shadow-lg"
+                    className="size-32 rounded-full object-cover shadow-lg border-2 border-cyan-500"
                   /></a></div>
   <div><a href="https://jkiimala.github.io/sikanoppa/" target="_blank">
   <img
                     src={profileImage3}
                     alt="Profile"
-                    className="size-32 rounded-full object-cover shadow-lg"
+                    className="size-32 rounded-full object-cover shadow-lg border-2 border-cyan-500"
                   /></a></div>
   <div><a href="https://jkiimala.github.io/spaceWorms/" target="_blank">
   <img
                     src={profileImage4}
                     alt="Profile"
-                    className="size-32 rounded-full object-cover shadow-lg"
+                    className="size-32 rounded-full object-cover shadow-lg border-2 border-cyan-500"
                   /></a></div>
 
 </div>
 
       <p className="text-gray-700 text-center mb-5"></p>
 
-      <a href="https://jkiimala.github.io/captainJackpot/" target="_blank" className="relative mb-10 block rounded-tr-3xl border border-green-600">
+      <a href="https://jkiimala.github.io/captainJackpot/" target="_blank" className="relative mb-10 block rounded-tr-3xl border-2 border-cyan-500">
   <span
     className="absolute -right-px -top-px rounded-bl-3xl rounded-tr-3xl bg-red-600 px-6 py-4 font-medium uppercase tracking-widest text-white"
   >
-    THIS WAY TO THE TREASURE!
+    DEAD MEN TELL NO TALES!
   </span>
 
   <img
@@ -56,14 +56,14 @@ const Projects = () => {
   />
 
   <div className="p-4 text-center">
-    <strong className="text-xl font-medium text-gray-900"> Dead Men Tell No Tails </strong>
+    <strong className="text-xl font-medium text-gray-900"> YARRR! GONNA PLUNDER ME LOOT? </strong>
 
     <p className="mt-2 text-pretty text-gray-700">
       Captain Jackpot is a simple pirate style JavaScript Slot Machine. Do not lose all your money playing it!
     </p>
 
     <span
-      className="mt-4 mb-10 block rounded-md border border-green-600 bg-green-600 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-indigo-900"
+      className="mt-4 mb-10 block rounded-md border border-cyan-500 bg-cyan-500 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-green-600 hover:text-white"
     >
       Play Captain Jackpot
     </span>

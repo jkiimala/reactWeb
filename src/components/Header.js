@@ -19,7 +19,7 @@ const Header = () => {
     <header className="bg-sky-800 shadow fixed w-full top-0 left-0 z-50">
       <div className="container mx-auto p-6 flex justify-between items-center">
         <a href="#" onClick={scrollToTop} className="text-base font-semibold cursor-pointer text-white">
-          JK - Front-End Web Developer
+          Front-End Web Developer
         </a>
         <div className="md:hidden">
           <button
@@ -32,7 +32,7 @@ const Header = () => {
           </button>
         </div>
         <nav className={`${isOpen ? "block" : "hidden"} md:flex md:items-center`}>
-          <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 ml-auto items-end">
+          <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 ml-auto items-end text-xs uppercase tracking-tight">
             <li>
               <a href="#" onClick={scrollToTop} className="px-3 py-2 text-white rounded hover:bg-sky-600">
                 About Me
