@@ -38,7 +38,8 @@ html {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding-top: 0px; /* Lisää tilaa yläosaan, jotta otsikko näkyy kunnolla */ 
+  padding-top: 0; /* Lisää tilaa yläosaan, jotta otsikko näkyy kunnolla */ 
+  
 }
 
 
