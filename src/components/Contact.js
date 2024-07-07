@@ -1,7 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import profileImage from '../images/man.webp'; // Tuodaan kuva
+import profileImage from '../images/lemmy.jpg';
+import profileImage2 from '../images/elvis.webp';
+import profileImage3 from '../images/jimi.jpg';
 
 const reviews = [
   {
@@ -9,18 +11,21 @@ const reviews = [
     name: "Lemmy Kilmister",
     review: "That was a great time, the summer of 1997 – I can’t remember it, but I’ll never forget it!",
     rating: 5,
+    image: profileImage,
   },
   {
     id: 2,
     name: "Elvis Presley",
     review: "Don’t criticize what you don’t understand, son. You never walked in that man’s shoes.",
     rating: 5,
+    image: profileImage2,
   },
   {
     id: 3,
     name: "Jimi Hendrix",
     review: "Knowledge speaks, but wisdom listens.",
     rating: 5,
+    image: profileImage3,
   },
 ];
 
@@ -43,26 +48,21 @@ const stars = (rating) => {
 const Contact = () => {
   return (
     <div className="contact">
-      
-      
       <section className="#bae6fd">
-      
         <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-          
           <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl -mt-96">
             Contact info & trusted reviews from my customers.
           </h2>
 
           <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
             {reviews.map((review) => (
-              <blockquote key={review.id} className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+              <blockquote key={review.id} className="rounded-lg bg-gray-50 p-6 shadow-xl sm:p-8">
                 <div className="flex items-center gap-4">
                   <img
-                    src={profileImage}
-                    alt="Profile"
+                    src={review.image}
+                    alt={review.name}
                     className="size-32 rounded-full object-cover"
                   />
-
                   <div>
                     <div className="flex justify-center gap-0.5 text-green-500">
                       {stars(review.rating)}
