@@ -23,7 +23,7 @@ const About = () => {
 
       <div className="mt-8 flex flex-wrap justify-center gap-4">
         <a
-          className="block w-full rounded bg-cyan-700 px-12 py-3 text-sm font-medium text-white shadow-md
+          className="block w-full rounded bg-black px-12 py-3 text-sm font-medium text-white shadow-md
            hover:bg-cyan-600 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
           href="#skills"
         >
@@ -31,11 +31,11 @@ const About = () => {
         </a>
 
         <a
-          className="block w-full bg-red-600 rounded px-12 py-3 text-sm font-bold text-white shadow-md
-           hover:text-white hover:bg-cyan-600 focus:outline-none focus:ring active:text-white sm:w-auto"
-          href="#contact"
+          className="block w-full bg-cyan-600 rounded px-12 py-3 text-sm font-bold text-white shadow-md
+           hover:text-white hover:bg-black focus:outline-none focus:ring active:text-white sm:w-auto"
+          href="#projects"
         >
-          Learn More
+          Projects
         </a>
       </div>
     </div>

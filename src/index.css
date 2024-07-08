@@ -11,6 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #bae6fd;
+  margin-top: -10px;
 }
 
 code {
@@ -33,7 +34,7 @@ html {
 
 #about {
   display: flex;
-  background-color: #bae6fd;
+  background-image: radial-gradient(circle at 32% 12%, rgba(229, 229, 229,0.05) 0%, rgba(229, 229, 229,0.05) 50%,rgba(101, 101, 101,0.05) 50%, rgba(101, 101, 101,0.05) 100%),radial-gradient(circle at 49% 59%, rgba(113, 113, 113,0.05) 0%, rgba(113, 113, 113,0.05) 50%,rgba(240, 240, 240,0.05) 50%, rgba(240, 240, 240,0.05) 100%),radial-gradient(circle at 16% 86%, rgba(118, 118, 118,0.05) 0%, rgba(118, 118, 118,0.05) 50%,rgba(207, 207, 207,0.05) 50%, rgba(207, 207, 207,0.05) 100%),linear-gradient(252deg, rgb(34, 85, 150),rgb(117, 220, 202));
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -45,7 +46,7 @@ html {
 
 #skills {
   display: flex;
-  background-color: #e1f5ff;
+  background-image: radial-gradient(circle at 40% 91%, rgba(251, 251, 251,0.04) 0%, rgba(251, 251, 251,0.04) 50%,rgba(229, 229, 229,0.04) 50%, rgba(229, 229, 229,0.04) 100%),radial-gradient(circle at 66% 97%, rgba(36, 36, 36,0.04) 0%, rgba(36, 36, 36,0.04) 50%,rgba(46, 46, 46,0.04) 50%, rgba(46, 46, 46,0.04) 100%),radial-gradient(circle at 86% 7%, rgba(40, 40, 40,0.04) 0%, rgba(40, 40, 40,0.04) 50%,rgba(200, 200, 200,0.04) 50%, rgba(200, 200, 200,0.04) 100%),radial-gradient(circle at 15% 16%, rgba(99, 99, 99,0.04) 0%, rgba(99, 99, 99,0.04) 50%,rgba(45, 45, 45,0.04) 50%, rgba(45, 45, 45,0.04) 100%),radial-gradient(circle at 75% 99%, rgba(243, 243, 243,0.04) 0%, rgba(243, 243, 243,0.04) 50%,rgba(37, 37, 37,0.04) 50%, rgba(37, 37, 37,0.04) 100%),linear-gradient(90deg, rgb(34, 222, 237),rgb(135, 89, 215));
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -55,7 +56,7 @@ html {
 
 #projects {
   display: flex;
-  background-color: #bae6fd;
+  background-image: radial-gradient(circle at 93% 91%, rgba(173, 173, 173,0.11) 0%, rgba(173, 173, 173,0.11) 33.333%,rgba(211, 211, 211,0.11) 33.333%, rgba(211, 211, 211,0.11) 66.666%,rgba(248, 248, 248,0.11) 66.666%, rgba(248, 248, 248,0.11) 99.999%),radial-gradient(circle at 74% 82%, rgba(240, 240, 240,0.17) 0%, rgba(240, 240, 240,0.17) 33.333%,rgba(223, 223, 223,0.17) 33.333%, rgba(223, 223, 223,0.17) 66.666%,rgba(205, 205, 205,0.17) 66.666%, rgba(205, 205, 205,0.17) 99.999%),radial-gradient(circle at 79% 0%, rgba(198, 198, 198,0.16) 0%, rgba(198, 198, 198,0.16) 33.333%,rgba(157, 157, 157,0.16) 33.333%, rgba(157, 157, 157,0.16) 66.666%,rgba(116, 116, 116,0.16) 66.666%, rgba(116, 116, 116,0.16) 99.999%),linear-gradient(0deg, rgb(38, 16, 178),rgb(103, 237, 187));
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -65,7 +66,7 @@ html {
 
 #contact {
   display: flex;
-  background-color: #e1f5ff;
+  background-image: radial-gradient(circle at 32% 12%, rgba(229, 229, 229,0.05) 0%, rgba(229, 229, 229,0.05) 50%,rgba(101, 101, 101,0.05) 50%, rgba(101, 101, 101,0.05) 100%),radial-gradient(circle at 49% 59%, rgba(113, 113, 113,0.05) 0%, rgba(113, 113, 113,0.05) 50%,rgba(240, 240, 240,0.05) 50%, rgba(240, 240, 240,0.05) 100%),radial-gradient(circle at 16% 86%, rgba(118, 118, 118,0.05) 0%, rgba(118, 118, 118,0.05) 50%,rgba(207, 207, 207,0.05) 50%, rgba(207, 207, 207,0.05) 100%),linear-gradient(252deg, rgb(34, 85, 150),rgb(117, 220, 202));
   flex-direction: column;
   align-items: center;
   justify-content: center;
