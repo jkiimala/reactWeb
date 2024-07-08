@@ -44,9 +44,9 @@ const Projects = () => {
 
       <a href="https://jkiimala.github.io/captainJackpot/" target="_blank" rel="noopener noreferrer" className="relative mb-10 block rounded-tr-3xl border-2 border-cyan-500 shadow-xl">
   <span
-    className="absolute -right-px -top-px rounded-bl-3xl rounded-tr-3xl bg-red-600 px-6 py-4 font-medium uppercase tracking-widest text-white"
+    className="absolute -right-px -top-px rounded-bl-3xl rounded-tr-3xl bg-green-600 px-6 py-4 font-medium uppercase tracking-widest text-white"
   >
-    1.000.000 $ JACKPOT
+    WIN 1.000.000 $
   </span>
 
   <img

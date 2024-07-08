@@ -70,7 +70,7 @@ html {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding-top: 600px; /* Lisää tilaa yläosaan, jotta otsikko näkyy kunnolla */
+  padding-top: 500px; /* Lisää tilaa yläosaan, jotta otsikko näkyy kunnolla */
 }
 
 

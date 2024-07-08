@@ -9,7 +9,7 @@ const reviews = [
   {
     id: 1,
     name: "Lemmy Kilmister",
-    review: "That was a great time, the summer of 1997 – I can’t remember it, but I’ll never forget it!",
+    review: "That was a great time, the summer of 1973 – I can’t remember it, but I’ll never forget it!",
     rating: 5,
     image: profileImage,
   },
@@ -49,8 +49,8 @@ const Contact = () => {
   return (
     <div className="contact">
       <section className="#bae6fd">
-        <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-          <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl -mt-96">
+        <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-32">
+          <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl pb-10 -mt-96">
             Contact info & trusted reviews from my customers.
           </h2>
 
@@ -87,7 +87,7 @@ const Contact = () => {
         <a href="https://www.linkedin.com/in/jkiimala" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
-        <a href="https://www.facebook.com/your-profile" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/jkiimala" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
         <a href="https://www.facebook.com/your-profile" target="_blank" rel="noopener noreferrer">

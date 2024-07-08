@@ -10,9 +10,9 @@ const About = () => {
      <section className="#bae6fd">
   <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
     <div className="mx-auto max-w-xl text-center">
-      <h1 className="text-3xl font-extrabold sm:text-5xl -mt-32">
-        Creative Web Design.
-        <strong className="font-extrabold text-cyan-700 sm:block mb-8"> Agile Development. </strong>
+      <h1 className="text-3xl font-extrabold sm:text-5xl -mt-10">
+        React & Tailwind CSS
+        <strong className="font-extrabold text-cyan-700 sm:block mb-8"> Website. </strong>
       </h1>
 
       <p className="mt-4 sm:text-xl/relaxed text-start tracking-tighter mb-8">
