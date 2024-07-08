@@ -50,8 +50,8 @@ const Contact = () => {
     <div className="contact">
       <section className="#bae6fd">
         <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-32">
-          <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl pb-10 -mt-96">
-            Contact info & trusted reviews from my customers.
+          <h2 className="text-center text-4xl font-bold tracking-tight text-white sm:text-5xl pb-10 -mt-96">
+            Trusted reviews from my customers.
           </h2>
 
           <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
@@ -77,12 +77,13 @@ const Contact = () => {
           </div>
         </div>
       </section>
-
-
-      <h2 className="text-3 font-bold mb-3 cursor-pointer text-center"><a href="https://jkiimala.github.io" target="_blank" rel="noopener noreferrer">Portfolio Website | jkiimala.github.io</a></h2>
       
-      <p className="text-gray-700 text-center my-3 uppercase text-sm font-bold">Social media</p>
-      <div className="social-icons text-center space-x-2">
+
+      <h2 className="text-3 text-sm font-light mb-3 mt-3 cursor-pointer text-center text-white"><a href="https://jkiimala.github.io"
+       target="_blank" rel="noopener noreferrer">Jarno Kiimala | Front-End Developer | jkiimala.github.io</a></h2>
+      
+      <p className="text-center my-3 uppercase text-sm font-medium text-white">Social media</p>
+      <div className="social-icons text-center space-x-2 text-white">
         
         <a href="https://www.linkedin.com/in/jkiimala" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} size="2x" />

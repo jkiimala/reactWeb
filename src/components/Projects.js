@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <section className="projects">
       
-      <h2 className="text-3xl font-extrabold sm:text-5xl mt-32 mb-10 text-center">JavaScript Games.</h2>
+      <h2 className="text-3xl font-extrabold sm:text-5xl mt-32 mb-10 text-center text-white">JavaScript Games.</h2>
 
       <div className="grid grid-cols-4 gap-1 mb-10">
   <div><a href="https://jkiimala.github.io/captainJackpot/" target="_blank" rel="noopener noreferrer">
@@ -44,9 +44,9 @@ const Projects = () => {
 
       <a href="https://jkiimala.github.io/captainJackpot/" target="_blank" rel="noopener noreferrer" className="relative mb-10 block rounded-tr-3xl border-2 border-cyan-500 shadow-xl">
   <span
-    className="absolute -right-px -top-px rounded-bl-3xl rounded-tr-3xl bg-green-600 px-6 py-4 font-medium uppercase tracking-widest text-white"
+    className="absolute -right-px -top-px rounded-bl-3xl rounded-tr-3xl bg-red-600 px-6 py-4 font-medium uppercase tracking-widest text-white"
   >
-    WIN 1.000.000 $
+    1.000.000 $
   </span>
 
   <img
