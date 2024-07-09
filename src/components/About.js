@@ -12,7 +12,7 @@ const About = () => {
     <div className="mx-auto max-w-xl text-center">
       <h1 className="text-3xl font-extrabold sm:text-5xl -mt-10 text-white">
         React & Tailwind CSS
-        <strong className="font-extrabold text-cyan-700 sm:block mb-8"> Website. </strong>
+        <strong className="font-extrabold text-cyan-800 sm:block mb-8 mt-4"> Website. </strong>
       </h1>
 
       <p className="mt-4 sm:text-xl/relaxed text-start tracking-tighter mb-8">
@@ -24,7 +24,7 @@ const About = () => {
       <div className="mt-8 flex flex-wrap justify-center gap-4">
         <a
           className="block w-full rounded bg-black px-12 py-3 text-sm font-medium text-white shadow-md
-           hover:bg-cyan-600 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
+           hover:bg-cyan-600 hover:scale-90 sm:w-auto"
           href="#skills"
         >
           Get Started
@@ -32,7 +32,7 @@ const About = () => {
 
         <a
           className="block w-full bg-cyan-600 rounded px-12 py-3 text-sm font-bold text-white shadow-md
-           hover:text-white hover:bg-black focus:outline-none focus:ring active:text-white sm:w-auto"
+           hover:text-white hover:bg-black hover:scale-90 active:text-white sm:w-auto"
           href="#projects"
         >
           Projects

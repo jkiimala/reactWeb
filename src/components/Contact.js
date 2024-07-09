@@ -61,7 +61,7 @@ const Contact = () => {
                   <img
                     src={review.image}
                     alt={review.name}
-                    className="size-32 rounded-full object-cover"
+                    className="size-32 rounded-full object-cover hover:scale-110"
                   />
                   <div>
                     <div className="flex justify-center gap-0.5 text-green-500">
@@ -79,7 +79,7 @@ const Contact = () => {
       </section>
       
 
-      <h2 className="text-3 text-sm font-light mb-3 mt-3 cursor-pointer text-center text-white"><a href="https://jkiimala.github.io"
+      <h2 className="text-3 text-sm font-normal mb-3 mt-3 cursor-pointer text-center text-white"><a href="https://jkiimala.github.io"
        target="_blank" rel="noopener noreferrer">Jarno Kiimala | Front-End Developer | jkiimala.github.io</a></h2>
       
       <p className="text-center my-3 uppercase text-sm font-medium text-white">Social media</p>

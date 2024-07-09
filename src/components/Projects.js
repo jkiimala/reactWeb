@@ -63,7 +63,7 @@ const Projects = () => {
     </p>
 
     <span
-      className="mt-4 mb-10 block rounded-md border border-cyan-600 bg-cyan-600 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:bg-black hover:text-white"
+      className="mt-4 mb-10 block rounded-md border border-cyan-600 bg-cyan-600 px-5 py-3 text-sm font-medium uppercase tracking-widest text-white transition-colors hover:scale-95 hover:bg-black hover:text-white"
     >
       Play Captain Jackpot
     </span>
