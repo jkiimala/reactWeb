@@ -1,13 +1,13 @@
 import React from 'react';
-import Image1 from '../images/ab1.jpg';
-import Image2 from '../images/ab2.jpg';
-import Image3 from '../images/ab3.jpg';
-import Image4 from '../images/ab4.jpg';
+import Image1 from '../images/ab1.webp';
+import Image2 from '../images/ab2.webp';
+import Image3 from '../images/ab3.webp';
+import Image4 from '../images/ab4.webp';
 
 const About = () => {
   return (
     <section className="about py-6 px-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-2">
         <img
           src={Image1}
           alt="Profile"
@@ -31,7 +31,7 @@ const About = () => {
       </div>
 
       <section className="py-5 flex items-center justify-center">
-  <div className="max-w-screen-xl px-4 py-10 flex flex-col lg:flex-row items-center justify-center">
+  <div className="max-w-screen-xl px-4 py-4 flex flex-col lg:flex-row items-center justify-center">
     <div className="max-w-xl text-center">
       <h1 className="text-3xl font-extrabold sm:text-5xl text-gray-900">
         React & Tailwind CSS
