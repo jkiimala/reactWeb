@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/reactWeb/static/css/main.ca1ae4ac.css",
-    "main.js": "/reactWeb/static/js/main.6ff856d3.js",
-    "static/media/ab2.jpg": "/reactWeb/static/media/ab2.0b4043e1d1084df25603.jpg",
-    "static/media/ab1.jpg": "/reactWeb/static/media/ab1.4754427278ceb50408b6.jpg",
-    "static/media/ab4.jpg": "/reactWeb/static/media/ab4.1f620605d6cc38cbd64d.jpg",
-    "static/media/ab3.jpg": "/reactWeb/static/media/ab3.2ff8fd091ec76616d28f.jpg",
+    "main.css": "/reactWeb/static/css/main.bd0fcd26.css",
+    "main.js": "/reactWeb/static/js/main.885a5e70.js",
     "static/media/code3.jpg": "/reactWeb/static/media/code3.4f21a8e863597f63d176.jpg",
     "static/media/code.jpg": "/reactWeb/static/media/code.265ba145a1e550332ac0.jpg",
     "static/media/lemmy.jpg": "/reactWeb/static/media/lemmy.efd251d82700d674cc82.jpg",
     "static/media/code2.jpg": "/reactWeb/static/media/code2.364436690af2178f9a9b.jpg",
     "static/media/jimi.jpg": "/reactWeb/static/media/jimi.9bf4b6085125f294798f.jpg",
     "static/media/elvis.webp": "/reactWeb/static/media/elvis.11437843a48d15264df5.webp",
+    "static/media/ab1.webp": "/reactWeb/static/media/ab1.88ba8bcbea3d9b154a15.webp",
+    "static/media/ab2.webp": "/reactWeb/static/media/ab2.546a9a3c8ad613d8b7fc.webp",
+    "static/media/ab4.webp": "/reactWeb/static/media/ab4.34fdd53c5bed15fe5e73.webp",
+    "static/media/ab3.webp": "/reactWeb/static/media/ab3.2885de4b8df38cf21a0c.webp",
     "static/media/captain.webp": "/reactWeb/static/media/captain.d4639f5a2dd4f3000134.webp",
     "static/media/pig.webp": "/reactWeb/static/media/pig.93ac9e160d4537d388be.webp",
     "static/media/pirate.webp": "/reactWeb/static/media/pirate.cd3e5964971403d05449.webp",
     "static/media/worms.webp": "/reactWeb/static/media/worms.530b4f0127f49347ff03.webp",
     "static/media/beer.webp": "/reactWeb/static/media/beer.da12b58ce3a6b812b0be.webp",
     "index.html": "/reactWeb/index.html",
-    "main.ca1ae4ac.css.map": "/reactWeb/static/css/main.ca1ae4ac.css.map",
-    "main.6ff856d3.js.map": "/reactWeb/static/js/main.6ff856d3.js.map"
+    "main.bd0fcd26.css.map": "/reactWeb/static/css/main.bd0fcd26.css.map",
+    "main.885a5e70.js.map": "/reactWeb/static/js/main.885a5e70.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca1ae4ac.css",
-    "static/js/main.6ff856d3.js"
+    "static/css/main.bd0fcd26.css",
+    "static/js/main.885a5e70.js"
   ]
 }
