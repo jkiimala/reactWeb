@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/reactWeb/static/css/main.6b110712.css",
-    "main.js": "/reactWeb/static/js/main.83776c5d.js",
+    "main.css": "/reactWeb/static/css/main.ca1ae4ac.css",
+    "main.js": "/reactWeb/static/js/main.6ff856d3.js",
+    "static/media/ab2.jpg": "/reactWeb/static/media/ab2.0b4043e1d1084df25603.jpg",
+    "static/media/ab1.jpg": "/reactWeb/static/media/ab1.4754427278ceb50408b6.jpg",
+    "static/media/ab4.jpg": "/reactWeb/static/media/ab4.1f620605d6cc38cbd64d.jpg",
+    "static/media/ab3.jpg": "/reactWeb/static/media/ab3.2ff8fd091ec76616d28f.jpg",
     "static/media/code3.jpg": "/reactWeb/static/media/code3.4f21a8e863597f63d176.jpg",
     "static/media/code.jpg": "/reactWeb/static/media/code.265ba145a1e550332ac0.jpg",
     "static/media/lemmy.jpg": "/reactWeb/static/media/lemmy.efd251d82700d674cc82.jpg",
@@ -14,11 +18,11 @@
     "static/media/worms.webp": "/reactWeb/static/media/worms.530b4f0127f49347ff03.webp",
     "static/media/beer.webp": "/reactWeb/static/media/beer.da12b58ce3a6b812b0be.webp",
     "index.html": "/reactWeb/index.html",
-    "main.6b110712.css.map": "/reactWeb/static/css/main.6b110712.css.map",
-    "main.83776c5d.js.map": "/reactWeb/static/js/main.83776c5d.js.map"
+    "main.ca1ae4ac.css.map": "/reactWeb/static/css/main.ca1ae4ac.css.map",
+    "main.6ff856d3.js.map": "/reactWeb/static/js/main.6ff856d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b110712.css",
-    "static/js/main.83776c5d.js"
+    "static/css/main.ca1ae4ac.css",
+    "static/js/main.6ff856d3.js"
   ]
 }
