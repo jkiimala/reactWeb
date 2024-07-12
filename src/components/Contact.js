@@ -61,7 +61,7 @@ const Contact = () => {
                   <img
                     src={review.image}
                     alt={review.name}
-                    className="size-32 rounded-full object-cover hover:scale-110"
+                    className="size-32 rounded-full object-cover transform transition duration-500 hover:scale-110"
                   />
                   <div>
                     <div className="flex justify-center gap-0.5 text-green-500">

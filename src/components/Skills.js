@@ -11,7 +11,7 @@ const Skills = () => {
         ICT Skills.
       </h1>
 
-      <p className="mt-4 sm:text-xl/relaxed text-start tracking-tighter">
+      <p className="mt-4 sm:text-xl/relaxed text-center tracking-tighter">
       Coding & Web Development | Data Science & Analytics | Sales & Marketing | Customer Service & Admin Support | Artificial Intelligence
       </p>
 

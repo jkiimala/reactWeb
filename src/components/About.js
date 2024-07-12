@@ -1,38 +1,59 @@
 import React from 'react';
-
-
+import Image1 from '../images/ab1.jpg';
+import Image2 from '../images/ab2.jpg';
+import Image3 from '../images/ab3.jpg';
+import Image4 from '../images/ab4.jpg';
 
 const About = () => {
   return (
-    <section className="about">
+    <section className="about py-6 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-5">
+        <img
+          src={Image1}
+          alt="Profile"
+          className="h-72 w-full object-cover shadow-lg border-2 border-cyan-500 transform transition duration-500 hover:scale-110"
+        />
+        <img
+          src={Image2}
+          alt="Profile"
+          className="h-72 w-full object-cover shadow-lg border-2 border-cyan-500 transform transition duration-500 hover:scale-110"
+        />
+        <img
+          src={Image3}
+          alt="Profile"
+          className="h-72 w-full object-cover shadow-lg border-2 border-cyan-500 transform transition duration-500 hover:scale-110"
+        />
+        <img
+          src={Image4}
+          alt="Profile"
+          className="h-72 w-full object-cover shadow-lg border-2 border-cyan-500 transform transition duration-500 hover:scale-110"
+        />
+      </div>
 
-     
-     <section className="#bae6fd">
-  <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
-    <div className="mx-auto max-w-xl text-center">
-      <h1 className="text-3xl font-extrabold sm:text-5xl -mt-10 text-white">
+      <section className="py-5 flex items-center justify-center">
+  <div className="max-w-screen-xl px-4 py-10 flex flex-col lg:flex-row items-center justify-center">
+    <div className="max-w-xl text-center">
+      <h1 className="text-3xl font-extrabold sm:text-5xl text-gray-900">
         React & Tailwind CSS
-        <strong className="font-extrabold text-cyan-800 sm:block mb-8 mt-4"> Website. </strong>
+        <strong className="font-extrabold text-cyan-800 sm:block mb-8 mt-4"> Website.</strong>
       </h1>
 
-      <p className="mt-4 sm:text-xl/relaxed text-start tracking-tighter mb-8">
-      Experienced web designer & front-end developer with 10+ years in cross-functional remote projects e.g. 
-      (e-commerce, productization, marketing research, networking, web design/development). Operational efficiency, sustainability 
-      and corporate responsibility in mind.
+      <p className="mt-4 sm:text-xl tracking-tighter mb-8 text-gray-700 text-left">
+        Experienced web designer & front-end developer with 10+ years in cross-functional remote projects e.g. 
+        (e-commerce, productization, marketing research, networking, web design/development). Operational efficiency, sustainability 
+        and corporate responsibility in mind.
       </p>
 
       <div className="mt-8 flex flex-wrap justify-center gap-4">
         <a
-          className="block w-full rounded bg-black px-12 py-3 text-sm font-medium text-white shadow-md
-           hover:bg-cyan-600 hover:scale-90 sm:w-auto"
+          className="block w-full lg:w-auto rounded bg-black px-12 py-3 text-sm font-medium text-white shadow-md hover:bg-cyan-600 hover:scale-90"
           href="#skills"
         >
           Get Started
         </a>
 
         <a
-          className="block w-full bg-cyan-600 rounded px-12 py-3 text-sm font-bold text-white shadow-md
-           hover:text-white hover:bg-black hover:scale-90 active:text-white sm:w-auto"
+          className="block w-full lg:w-auto bg-cyan-600 rounded px-12 py-3 text-sm font-bold text-white shadow-md hover:text-white hover:bg-black hover:scale-90 active:text-white"
           href="#projects"
         >
           Projects
@@ -41,8 +62,11 @@ const About = () => {
     </div>
   </div>
 </section>
+
+
     </section>
   );
 };
 
 export default About;
+

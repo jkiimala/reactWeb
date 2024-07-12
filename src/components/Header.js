@@ -4,7 +4,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 10, behavior: 'smooth' });
   };
 
   const scrollToBottom = () => {
@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header className="bg-sky-800 shadow fixed w-full top-0 left-0 z-50">
       <div className="container mx-auto p-6 flex justify-between items-center">
-        <a href="#about" onClick={scrollToTop} className="text-base font-semibold cursor-pointer text-white">
+        <a href="#header" onClick={scrollToTop} className="text-base font-semibold cursor-pointer text-white">
           Front-End Web Developer
         </a>
         <div className="md:hidden">
@@ -34,7 +34,7 @@ const Header = () => {
         <nav className={`${isOpen ? "block" : "hidden"} md:flex md:items-center`}>
           <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 ml-auto items-end text-xs uppercase tracking-tight">
             <li>
-              <a href="#about" onClick={scrollToTop} className="px-3 py-2 text-white rounded hover:bg-sky-600">
+              <a href="#header" onClick={scrollToTop} className="px-3 py-2 text-white rounded hover:bg-sky-600">
                 About Me
               </a>
             </li>
@@ -58,7 +58,7 @@ const Header = () => {
             </li>
             <li>
               <a href="#contact" onClick={scrollToBottom} className="px-3 py-2 text-white rounded hover:bg-sky-600">
-                Contact Info
+                Connect
               </a>
             </li>
           </ul>
